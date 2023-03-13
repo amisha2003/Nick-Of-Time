@@ -31,7 +31,7 @@ function App() {
       <div className="App">
         <Navbar isUser={!usertoken ? false : true} onSet={setUserToken} />
 
-        {/* <h1>{one}</h1> */}
+        {}
 
         <Switch>
           <Route exact path="/">
